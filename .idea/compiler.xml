@@ -8,12 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="dubboTest.api" />
         <module name="order-service-consumer" />
-        <module name="demo-interface" />
         <module name="order-service-provider" />
+        <module name="demo-interface" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="DubboTest" target="1.5" />
+      <module name="Test001" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
